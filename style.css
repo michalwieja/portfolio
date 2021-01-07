@@ -30,7 +30,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  z-index: 2;
+  z-index: 50;
 }
 
 @media (max-width: 1024px) {
@@ -178,10 +178,6 @@ header nav ul li a {
 
 .contact.socials {
   margin-top: 10px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   height: 10vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -244,20 +240,20 @@ li.active {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100%;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .wrapper.horizontal .mobilePic {
-    height: 30%;
+    width: 75%;
+    padding: 20px;
   }
   .wrapper.horizontal .desktopPic {
     width: 100%;
   }
 }
 
-h1 {
+h2 {
   position: absolute;
   display: inline;
   top: 30%;
@@ -270,12 +266,12 @@ h1 {
 }
 
 @media (max-width: 1024px) {
-  h1 {
+  h2 {
     font-size: 28px;
   }
 }
 
-h2 {
+h3 {
   font-weight: 400;
   font-size: clamp(12px, 5vw, 32px);
   letter-spacing: 0.5rem;
@@ -283,7 +279,20 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-  h2 {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  font-size: clamp(12px, 3vw, 24px);
+  letter-spacing: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1024px) {
+  h4 {
     font-size: 16px;
   }
 }
@@ -297,7 +306,7 @@ h2 {
   position: relative;
 }
 
-.line:nth-last-of-type(1) {
+.line:nth-child(odd) {
   width: 150px;
   right: -25px;
 }

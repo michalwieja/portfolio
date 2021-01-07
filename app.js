@@ -37,8 +37,8 @@ new fullpage("#fullpage", {
       gsap.to(".stars", { duration: 5, y: "-=50", ease: "back.out" });
     }
 
-    tl.fromTo("h1", { y: -50, opacity: 0 }, { y: 0, opacity: 1 });
-    tl.fromTo("h2", { x: "-100%" }, { x: 0 });
+    tl.fromTo("h2", { y: -50, opacity: 0 }, { y: 0, opacity: 1 });
+    tl.fromTo("h3", { x: "-100%", opacity: 0 }, { x: 0, opacity: 1 });
   },
 });
 

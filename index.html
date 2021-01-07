@@ -1,304 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MW</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
-      integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MW</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
+    integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
+    crossorigin="anonymous" />
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="/">
-          <svg
-            width="208"
-            height="416"
-            viewBox="0 0 209 416"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g class="m">
-              <path
-                class="m1"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M5 4.35355V404.354H4V4.35355H5Z"
-                stroke="black"
-                stroke-width="1"
-                stroke-linejoin="round"
-              />
-              <path
-                class="m2"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M204.146 204.707L4.14648 4.70711L4.85359 4L204.854 204L204.146 204.707Z"
-                stroke="black"
-                stroke-width="1"
-                stroke-linejoin="round"
-              />
-              <path
-                class="m3"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M404.854 4.70711L204.854 204.707L204.146 204L404.146 4L404.854 4.70711Z"
-                stroke="red"
-                stroke-width="1"
-                stroke-linejoin="round"
-              />
-            </g>
-            <g class="w">
-              <path
-                class="w1"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M403.854 404L403.854 4.00002L404.854 4.00002L404.854 404L403.854 404Z"
-                stroke="green"
-                stroke-width="1"
-                stroke-linejoin="round"
-              />
-              <path
-                class="w2"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M204.707 203.646L404.707 403.646L404 404.354L204 204.354L204.707 203.646Z"
-                stroke="blue"
-                stroke-width="1"
-                stroke-linejoin="round"
-              />
-              <path
-                class="w3"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M4.00002 403.646L204 203.646L204.707 204.354L4.70712 404.354L4.00002 403.646Z"
-                stroke="yellow"
-                stroke-width="1"
-                stroke-linejoin="round"
-              />
-            </g>
-          </svg>
-        </a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="/">
+        <svg width="240" height="416" viewBox="0 0 209 416" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g class="m">
+            <path class="m1" fill-rule="evenodd" clip-rule="evenodd" d="M5 4.35355V404.354H4V4.35355H5Z" stroke="black"
+              stroke-width="1" stroke-linejoin="round" />
+            <path class="m2" fill-rule="evenodd" clip-rule="evenodd"
+              d="M204.146 204.707L4.14648 4.70711L4.85359 4L204.854 204L204.146 204.707Z" stroke="black"
+              stroke-width="1" stroke-linejoin="round" />
+            <path class="m3" fill-rule="evenodd" clip-rule="evenodd"
+              d="M404.854 4.70711L204.854 204.707L204.146 204L404.146 4L404.854 4.70711Z" stroke="red" stroke-width="1"
+              stroke-linejoin="round" />
+          </g>
+          <g class="w">
+            <path class="w1" fill-rule="evenodd" clip-rule="evenodd"
+              d="M403.854 404L403.854 4.00002L404.854 4.00002L404.854 404L403.854 404Z" stroke="green" stroke-width="1"
+              stroke-linejoin="round" />
+            <path class="w2" fill-rule="evenodd" clip-rule="evenodd"
+              d="M204.707 203.646L404.707 403.646L404 404.354L204 204.354L204.707 203.646Z" stroke="blue"
+              stroke-width="1" stroke-linejoin="round" />
+            <path class="w3" fill-rule="evenodd" clip-rule="evenodd"
+              d="M4.00002 403.646L204 203.646L204.707 204.354L4.70712 404.354L4.00002 403.646Z" stroke="yellow"
+              stroke-width="1" stroke-linejoin="round" />
+          </g>
+        </svg>
+      </a>
+    </div>
+
+    <nav>
+      <ul id="menu">
+        <li data-menuanchor="home">
+          <a href="#home" title="First Section">Home</a>
+        </li>
+        <li data-menuanchor="portfolio">
+          <a href="#portfolio" title="Second Section">Portfolio</a>
+        </li>
+        <li data-menuanchor="kontakt">
+          <a href="#kontakt" title="Third Section">Kontakt</a>
+        </li>
+      </ul>
+
+      <div class="socials">
+        <div class="fb">
+          <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/wiejamichal"><i
+              class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="twtr">
+          <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/M1kePL"><i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="mail">
+          <a href="mailto:mwieja84@gmail.com>"><i class="fas fa-envelope"></i>
+          </a>
+        </div>
       </div>
+    </nav>
+  </header>
+  <div class="moon">
+    <img src="./moon.svg" alt="moon" />
+  </div>
+  <div class="stars">
+    <img src="./stars.svg" alt="" />
+  </div>
+  <div id="fullpage">
+    <div id="section1" class="section active">
+      <div class="wrapper">
+        <h2>MICHAL</h2>
+        <div class="line"></div>
+        <div class="line"></div>
+        <h3> web developer /</h3>
+        <h3>graphic creator</h3>
+      </div>
+    </div>
+    <div id="section2" class="section">
+      <div class="slide">
+        <div class="wrapper">
+          <h2>PORTFOLIO</h2>
 
-      <nav>
-        <ul id="menu">
-          <li data-menuanchor="home">
-            <a href="#home" title="First Section">Home</a>
-          </li>
-          <li data-menuanchor="portfolio">
-            <a href="#portfolio" title="Second Section">Portfolio</a>
-          </li>
-          <li data-menuanchor="kontakt">
-            <a href="#kontakt" title="Second Section">Kontakt</a>
-          </li>
-        </ul>
 
-        <div class="socials">
+          <div class="line"></div>
+          <div class="line"></div>
+
+          <h3>Check my work</h3>
+          <a href="#portfolio/1" class="myBtn">More</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="wrapper horizontal">
+          <a rel="noopener noreferrer" target="_blank" href="https://www.fajnemiejscegiligili.pl">
+            <img class="mobilePic" src="./img/gili/mobile.png" alt="mobile gili" /></a>
+          <a rel="noopener noreferrer" target="_blank" href="https://www.fajnemiejscegiligili.pl">
+            <img class="desktopPic" src="./img/gili/desktop.png" alt="desktop gili" />
+          </a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="wrapper horizontal">
+          <a rel="noopener noreferrer" target="_blank" href="https://www.tworczaam.pl">
+            <img class="mobilePic" src="./img/tam/mobile.png" alt="mobile akademia" />
+          </a>
+          <a rel="noopener noreferrer" target="_blank" href="https://www.tworczaam.pl">
+            <img class="desktopPic" src="./img/tam/desktop.png" alt="desktop akademia" />
+          </a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="wrapper horizontal">
+          <a rel="noopener noreferrer" target="_blank" href="http://www.warsztat.edu.pl">
+            <img class="mobilePic" src="./img/warsztat/mobile.png" alt="mobile warsztat" />
+          </a>
+          <a rel="noopener noreferrer" target="_blank" href="http://www.warsztat.edu.pl">
+            <img class="desktopPic" src="./img/warsztat/desktop.png" alt="desktop warsztat" /></a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="wrapper horizontal">
+          <a rel="noopener noreferrer" target="_blank" href="http://www.revitalfitness.pl">
+            <img class="mobilePic" src="./img/revital/mobile-dark.png" alt="mobile revital" /></a>
+          <a rel="noopener noreferrer" target="_blank" href="http://www.revitalfitness.pl">
+            <img class="desktopPic" src="./img/revital/desktop-dark.png" alt="desktop revital" /></a>
+        </div>
+      </div>
+    </div>
+    <div id="section3" class="section">
+      <div class="wrapper">
+        <h2>CONTACT</h2>
+        <div class="line"></div>
+        <div class="line"></div>
+
+        <h3>Contact me for any web development ideas that you have </h3>
+
+        <div class="contact socials">
           <div class="fb">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.facebook.com/wiejamichal"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
+            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/wiejamichal"><i
+                class="fab fa-facebook-f fa-2x"></i></a>
           </div>
           <div class="twtr">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://twitter.com/M1kePL"
-              ><i class="fab fa-twitter"></i>
+            <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/M1kePL"><i
+                class="fab fa-twitter fa-2x"></i>
             </a>
           </div>
           <div class="mail">
-            <a href="mailto:mwieja84@gmail.com>"
-              ><i class="fas fa-envelope"></i>
+            <a href="mailto:mwieja84@gmail.com"><i class="fas fa-envelope fa-2x"></i>
             </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div class="moon">
-      <img src="./moon.svg" alt="moon" />
-    </div>
-    <div class="stars">
-      <img src="./stars.svg" alt="" />
-    </div>
-    <div id="fullpage">
-      <div id="section1" class="section active">
-        <div class="wrapper">
-          <h1>MICHAL</h1>
-
-          <div class="line"></div>
-          <div class="line"></div>
-          <h2>junior web designer /</h2>
-          <h2>graphic creator</h2>
-        </div>
-      </div>
-      <div id="section2" class="section">
-        <div class="slide">
-          <div class="wrapper">
-            <h1>PORTFOLIO</h1>
-            <h1></h1>
-
-            <div class="line"></div>
-            <h2>Check my work</h2>
-            <a href="#portfolio/1" class="myBtn">More</a>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="wrapper horizontal">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.fajnemiejscegiligili.pl"
-            >
-              <img
-                class="mobilePic"
-                src="./img/gili/mobile.png"
-                alt="mobile gili"
-            /></a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.fajnemiejscegiligili.pl"
-            >
-              <img
-                class="desktopPic"
-                src="./img/gili/desktop.png"
-                alt="desktop gili"
-              />
-            </a>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="wrapper horizontal">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.tworczaam.pl"
-            >
-              <img
-                class="mobilePic"
-                src="./img/tam/mobile.png"
-                alt="mobile akademia"
-              />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.tworczaam.pl"
-            >
-              <img
-                class="desktopPic"
-                src="./img/tam/desktop.png"
-                alt="desktop akademia"
-              />
-            </a>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="wrapper horizontal">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="http://www.warsztat.edu.pl"
-            >
-              <img
-                class="mobilePic"
-                src="./img/warsztat/mobile.png"
-                alt="mobile warsztat"
-              />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="http://www.warsztat.edu.pl"
-            >
-              <img
-                class="desktopPic"
-                src="./img/warsztat/desktop.png"
-                alt="desktop warsztat"
-            /></a>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="wrapper horizontal">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="http://www.revitalfitness.pl"
-            >
-              <img
-                class="mobilePic"
-                src="./img/revital/mobile.png"
-                alt="mobile revital"
-            /></a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="http://www.revitalfitness.pl"
-            >
-              <img
-                class="desktopPic"
-                src="./img/revital/desktop.png"
-                alt="desktop revital"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div id="section3" class="section">
-        <div class="wrapper">
-          <h1>CONTACT</h1>
-          <div class="line"></div>
-          <h2>contact me</h2>
-          <div class="contact socials">
-            <div class="fb">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.facebook.com/wiejamichal"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-            </div>
-            <div class="twtr">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://twitter.com/M1kePL"
-                ><i class="fab fa-twitter"></i>
-              </a>
-            </div>
-            <div class="mail">
-              <a href="mailto:mwieja84@gmail.com>"
-                ><i class="fas fa-envelope"></i>
-              </a>
-            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
-      integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="app.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
+    integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
